@@ -1,0 +1,61 @@
+/* מבנה כללי */
+.dashboard-wrapper {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    width: 220px;
+    min-height: 100vh;
+    background-color: #fff;
+    border-right: 1px solid #dee2e6;
+  }
+  
+  .sidebar h4 {
+    color: #0d6efd;
+  }
+  
+  .btn-sidebar {
+    background: none;
+    border: none;
+    text-align: left;
+    font-weight: 500;
+    color: #495057;
+    padding-left: 0;
+  }
+  
+  .btn-sidebar:hover,
+  .btn-sidebar.active {
+    color: #0d6efd;
+  }
+  
+  /* תוכן ראשי */
+  .dashboard-main {
+    flex-grow: 1;
+    background-color: #f8f9fc;
+  }
+  
+  /* באנר עליון */
+  .banner {
+    background: linear-gradient(90deg, #0d6efd, #6f42c1);
+    color: white;
+  }
+  
+  .banner .btn {
+    font-weight: 500;
+  }
+  
+  /* Cards */
+  .card .card-img-top {
+    background: linear-gradient(135deg, #0d6efd 0%, #6f42c1 100%);
+  }
+  
+  .card h6 {
+    font-size: 1rem;
+  }
+  
+  .card p {
+    margin-bottom: 0.5rem;
+  }
+  
